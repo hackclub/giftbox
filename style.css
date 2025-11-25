@@ -13,7 +13,11 @@ body {
     font-weight: 400;
     font-style: normal;
     color: #6D5745;
-    font-size: 1.5em;
+    font-size: 1.8em;
+}
+
+a {
+    color: #DFA23E;
 }
 
 #top {
@@ -21,22 +25,38 @@ body {
     width: 100%;
     margin-bottom: -100%;
 }
+
 #key {
     width: 100%;
-    /* margin-bottom: -35vw; */
+
+    margin-bottom: -80vw;
 }
 
-#opening {
-    padding: 50px 10px;
-    position: absolute;
-    top: 52vw;
+
+
+#content {
+    position: relative;
+    /* padding: 50px 10px; */
+    /* padding-top: 52vw; */
+    
     width: 100%;
+    margin: 0 auto;
+    padding-top: 46vw;
     box-sizing: border-box;
+    text-align: center;
 
+
+    /* background-size: 100%;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+    background-image: url("assets/key.png") */
 }
 
-#opening p {
 
+
+#subtitle {
     margin: 8px auto;
     text-align: center;
 
@@ -44,14 +64,101 @@ body {
 
 em {
     color: #D03933;
+    font-style: normal;
 }
 
 h1 {
-    font-family: "Tiny 5", sans-serif;
+    font-family: "Tiny5", sans-serif;
+    color: #D03933;
+    text-align: left;
+    box-sizing: border-box;
+    margin: 16px 0;
 }
+
+#what {
+
+    margin-top: 8vw;
+
+}
+
+
+#talk {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+#sticker {
+    width: 35vw;
+    margin: 0 auto;
+    display: block;
+}
+
+
+@media (max-width: 600px) {
+    #key {
+        width: 200%;
+        margin-left: -50%;
+        margin-right:
+    }
+
+    #content {
+        padding-top: 16vw;
+    }
+
+    #talk {
+        padding-top: 60px;
+    }
+
+    #sticker {
+        width: 70vw;
+    }
+
+}
+
+
 
 footer {
     text-align: center;
     padding: 20px 0;
     width: 100%;
 }
+
+.button {
+    font-family: "Tiny5", sans-serif;
+    background-color: #D03933;
+    padding: 20px 50px;
+    border-radius: 100px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 4px solid #B92212;
+}
+
+.button:hover {
+    background-color: white;
+    color: #D03933;
+}
+
+details {
+    padding: 8px 0;
+}
+
+details p {
+    margin: 16px 0;
+}
+/* 
+
+@media (max-width: 1040px) {
+    #content {
+        padding-top: 550px;
+    }
+}
+
+@media (max-width: 600px) {
+    #content {
+        background-size: 180%;
+        padding-top: 400px;
+    }
+} */
